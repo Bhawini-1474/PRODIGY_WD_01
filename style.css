@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+header {
+    background-color: #238c48;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   
+
+} /* Change background color on hover */
+
+nav ul li.active a {
+    color: #ffc107;
+}
+
+nav ul li a:hover {
+    color: #da6b0b; /* Change color on hover */
+}
+.container {
+    position: relative;
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.overlaytext {
+    position: absolute;
+    top: 350px;
+    left: 490px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(230, 226, 226);
+}
+
+.overlaytext h1 {
+    font-size: 4rem;
+}
+
+.overlaytext p {
+    font-size: 1.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}

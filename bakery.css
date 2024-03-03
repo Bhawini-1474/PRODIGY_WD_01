@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+header {
+    background-color: #238c48;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.active a {
+    color: #ffc107;
+}
+
+nav ul li a:hover {
+    color: #da6b0b; /* Change color on hover */
+}
+
+body{
+    background-color: #f0f7f1;
+}
+
+.content h6 {
+    text-align:left;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.content ol{
+    text-align:left;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+
+
+
+.bgimg {
+    width: calc(100% - 40px); /* Adjusted to leave a 20px margin on each side */
+    height: calc(100% - 100px); /* Adjusted to leave a 50px margin at the top and bottom */
+    object-fit: contain; /* Ensures the image covers the entire container */
+    position: fixed; /* Fixed positioning to cover the entire viewport */
+    top: 50px; /* 50px margin from the top */
+    bottom: 85px; /* 50px margin from the bottom */
+    left: 290px; /* 20px margin from the left */
+    right: 320px; /* 20px margin from the right */
+    z-index: -1; /* Ensures the image is behind other content */
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 400px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: rgb(245, 239, 239);
+    padding: 5px; /* Increased padding */
+    font-size: 120px;
+    
+    cursor: pointer;
+    z-index: 9999;
+    padding: 5px 10px; /* Increased padding */
+}
+
+.arrow-left {
+    left:570px;
+}
+
+.arrow-right {
+    right: 30px;
+}
+body{
+    background-image: url('images/old.jpg'); /* Add your image path here */
+    background-size: cover; /* Adjust the background size */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-position: center; /* Center the background image */
+    background-color: #238c48;
+    color: #fff;
+    padding: 10px 0;;
+}
+
+
+

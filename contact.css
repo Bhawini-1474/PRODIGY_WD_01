@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+header {
+    background-color: #238c48;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.active a {
+    color: #ffc107;
+}
+
+nav ul li a:hover {
+    color: #da6b0b; /* Change color on hover */
+}
+.bgimg{
+    width: 100%; /* Adjusted to cover the left half of the webpage */
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.content-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity (0.8 for 80% transparency) */
+    padding: 100px 50px; /* Adjust padding */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 190px; /* Lower the box by adding margin */
+    max-width: 600px; /* Reduce the box width */
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px; /* Increase the height */
+}
+.content-box p{
+    font-size: 20px;
+    margin-top: -20px;
+}
+
