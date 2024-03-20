@@ -58,15 +58,15 @@ body{
 
 
 .bgimg {
-    width: calc(100% - 40px); /* Adjusted to leave a 20px margin on each side */
-    height: calc(100% - 100px); /* Adjusted to leave a 50px margin at the top and bottom */
+   width: calc(50% - 40px); /* Adjusted to cover the left half of the webpage */
+    height: calc(100% - 150px); /* Adjusted to leave a 50px margin at the top and bottom */
     object-fit: contain; /* Ensures the image covers the entire container */
-    position: fixed; /* Fixed positioning to cover the entire viewport */
-    top: 50px; /* 50px margin from the top */
-    bottom: 85px; /* 50px margin from the bottom */
-    left: 290px; /* 20px margin from the left */
-    right: 320px; /* 20px margin from the right */
-    z-index: -1; /* Ensures the image is behind other content */
+    position: fixed; 
+    top: 80px; 
+    bottom: 85px; 
+    left: calc(50% + -90px); 
+    right: 100px; 
+    z-index: -1;
 }
 
 .arrow-left,
